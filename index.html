@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+    .body{margin: 2px;}
+      .unselectable {
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+      }
+      .unselectable p{
+    font-size: 22px;
+    background: skyblue;
+    font-style: normal;
+    text-align: justify;
+        margin: 5px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align:center;">Clock is ticking!!!!</h1>
+      
+    </div>
+    <p id="demo" style="
+    font-size: 32px;
+    font-weight: bold;
+    color: darkred;
+    text-align: center;
+    padding: 10px;
+    background-color: greenyellow;"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 1, 2021 13:15:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Time is Over.";
+  }
+}, 1000);
+</script>
+    <h2 style="text-align: center;">Please Type the following Content within Time!!!</h2>
+    <div class="unselectable">
+        <p>The customer satisfaction-customer loyalty association is one of the most vital relationships for marketing theory and practice, due to the marketing effectiveness that these metrics summarize) and their implications for firms’ current and future product-marketplace and financial perrformance.
+Forty years of marketing academic and practitioner research are indicative of the innportance of the customer satisfaction-loyalty asscociation. In summary, the extant literature posits customer satisfaction – generaly conjectured to be an attitude summarizing customers’ perceptions regarding their overall consumption experiences ,as the primary driver of customer loyalty – usually conjectured to be a behavioral measure of future intentions to repurchase .That is, the literature indicates that customer satisfaction, also viewed as a customer mindset or attitude, leads to customer loyalty, regarded as a customer behavior. This association, if sustained, will lead to firms’ product-marketplace performance and financial performance, thus creating shareholder wealth (see the conceptual framework of the augmented value chain in Figure G1 for these logical linkages). To this purpose, firms invest billions of dollars in developing customer satisfaction monitoring systems so as to gather customer intelligence and to better predict how satisfaction translates into customer loyalty. In fact, these customer satisfaction investments represent the number one marketing research expenditure item for the vast majority of firms, amounting to roughly $14B annual expenditures in
+marketing research1.
+In spite of the magnitude of these expenditures and investments, paired with
+more than 40 years of academic and practitioner research on the association between
+customer satisfaction and customer loyalty, numerous knowledge gaps still exist. First of
+all, customer satisfaction commands a relatively modest predictive power over loyalty
+because of a relatively modest overall coefficient of association between customer
+satisfaction and customer loyalty metrics in the entire dataset from the American
+Customer Satisfaction Index, which is measured at approximately 0.607. This would
+indicate an R2 of nearly 37% in a regression setting. This is a rather small number,
+indicating that 63% of the variance in customer loyalty is unexplained after accounting
+for customer satisfaction.
+In addition, several studies on this association have clearly established a positive
+association between customer satisfaction and customer loyalty 
+However, this positive association often fails to be
+generalizable. This positive association between customer satisfaction and loyalty is not
+supported within some contexts.
+Clearly, there exists heterogeneity in the
+satisfaction-loyalty relationship. This heterogeneity with respect to the satisfactionloyalty
+association is also an indicator that customer satisfaction does not always
+completely account for customer loyalty.
+Recent accademic research suggests one of the primary reasons advanced in
+resolving these puzles on the association between customer satisfaction and loyalty to be
+diferences in competitive settings facing customers, firms and competitors. Such differences can lead to many diverse settings under which customer satisfaction translates – or does not – into customer loyalty. In fact, several studies (Anderson 1994; Anderson and Sullivan 1993; Bryant and Cha 1996; Gronholdt et al. 2000; Homburg and Giering 2001; Mittal and Kamakura 2001) have highlighted that customer, firm and industry differences (i.e., competitive setting differences) result in varying levels of customer satisfaction, customer loyalty, and therefore, variations in the sensitivity of the strength of the satisfaction-loyalty association (i.e., the sensitivity of a change in loyalty according to a change in satisfaction). Thus, failure to account for these competitive setting differences is likely to be the primary reason for the relatively modest predictive power of customer satisfaction over customer loyalty and heterogeneity with respect to the satisfaction-loyalty relationship.
+Although a few recent studies have addressed heterogeneity in customer characteristics (Bryant and Cha 1996; Homburg and Giering 2001; Mittal and Kamakura 2001) and industry conditions (Anderson 1994; Fornell and Johnson 1993; Gronholdt et al. 2000; Voss et al. 2010), to our knowledge, no research has simultaneously addressed heterogeneity in several possible dimensions of competitive settings faced by customers, firms, and industries. It is critical to simultaneously incorporate differences in all possible dimensions of competitive settings in order to resolve the existing knowledge gaps – i.e., the relatively modest predictive power of satisfaction over loyalty and heterogeneity with respect to the satisfaction-loyalty association – when analyzing the association between satisfaction and loyalty. Furthermore, previous research has mainly focused on these moderating effects only with respect to the intercept of the satisfaction-
+loyalty curve. It is very important to investigate the moderating impact of competitive setting heterogeneity on both the intercept and slope parameters because the moderating impact of competitive setting heterogeneity on the intercept and slope can be different. Both the intercept and slope determine the shape of the satisfaction-loyalty curve.
+To improve our understanding of the satisfaction-loyalty relationship by overcoming these puzzles, Chapter 1 develops a comprehensive, yet simple and flexible theoretical framework and an analytical model for examining the association between customer satisfaction and customer loyalty, which simultaneously incorporates heterogeneity in such dimensions of competitive settings as customer, firm, and industry characteristics. These theoretical framework and analytical models are solidly grounded in more than 40 years of existing marketing theory on the association between these two constructs. By directly addressing several possible dimensions of competitive setting heterogeneity, the framework allows us to more precisely examine the true nature of the association between satisfaction and loyalty. By doing so, our conceptual framework simultaneously incorporates the moderating effects of competitive setting heterogeneity on both the intercept and slope of the satisfaction-loyalty curve.
+In Chapter 2, we empirically test this conceptual framework by estimating a 3-level hierarchical linear model using American Customer Satisfaction Index (ACSI) data and several customer, firm and industry characteristics (e.g., demographic information to proxy for customer differences, business characteristics such as firm size, advertising and R&D expenditures, and brand portfolio and business segment strategies to measure firm differences, and market concentration, market type and market dynamism to capture industry differences).
+In addition to the competitive setting heterogeneity, firms’ decision-making, as well as consumers’ decisions, are expected to influence levels of customer satisfaction, since firms are likely to obtain a certain level of loyalty by indirectly choosing (or controlling) their optimal level of customer satisfaction. Failure to account for the effects of firm efforts on the determination of customer satisfaction is likely to cause endogeneity in satissfaction, which will bias coefficient estimates. Therefore, satisfaction must be treated as an endogenous variable. In a subsequent analysis in Chapter 3, we explore the extent to which customer satisfaction is endogenous, and how this endogeneity is likely to influence our understanding of the customer satisfaction-loyalty association. To control for both satisfaction endogeneity and competttive setting heterogeneity, we utilize a Two-Stage Least Squares 3-level hierarchical linear model that helps examine whether our current empirical findings are robust to these issues. By utilizing this frmework in our rexamination of the satisfaction-loyalty association, this research resolves some of the puzzles existing in this topic, while providing generalizable and precise findings, gaining important theoretical and managerial insights for marketing theory and practice, and broadening our understanding of the essential features of the satisfaction-loyalty association.
+</p>
+
+    </div>
+  </body>
+</html>
